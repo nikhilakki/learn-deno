@@ -7,7 +7,8 @@ $ deno run --allow-net app.ts
 
 **[Deno Deploy Docs 📙](https://deno.com/deploy/docs])**
 
-_**Deno v1.13.2**_
+_**Deno version [1.13.2](https://github.com/denoland/deno/releases/tag/v1.13.2)
+& above**_
 
-- _Author - Nikhil Akki_
+- _Author - Nikhil Akki_ 😎
 - _License - MIT_
