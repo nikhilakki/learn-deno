@@ -1,13 +1,12 @@
 import { Application } from "https://deno.land/x/abc@v1.3.3/mod.ts";
+import { time, timezone } from "https://deno.land/x/time.ts@v2.0.1/mod.ts";
 import Person from "./Person.ts";
-import getHostname from "./util.ts";
 
 const app = new Application();
 const port = 8080;
 
 app.get("/", (c) => {
-  const hostname = getHostname();
-  return c.json({ "hostname": hostname });
+  return `🕓 now UTC: ${time().t}`;
 });
 app.get("/hello", (c) => {
   const id: number = Number(c.queryParams.id);

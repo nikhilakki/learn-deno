@@ -2,7 +2,7 @@
 
 ```bash
 # To 🏃‍♂️ the program 
-$ deno run --allow-net --allow-read app.ts
+$ deno run --allow-net app.ts
 ```
 
 _**Deno v1.13.2**_
