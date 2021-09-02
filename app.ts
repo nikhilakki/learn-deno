@@ -18,7 +18,7 @@ app.get("/hello", (c) => {
 });
 
 const runServer = async () => {
-  console.log(`Server running on http://localhost:${port}/`);
+  console.log(`Server is 🏃‍♂️ on http://localhost:${port}/`);
   app.start({ port: port });
 };
 
