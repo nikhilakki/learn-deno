@@ -5,10 +5,10 @@
 $ deno run --allow-net app.ts
 ```
 
-**[Deno Deploy Docs 📙](https://deno.com/deploy/docs])**
+**[Deno Deploy Docs 📙](https://deno.com/deploy/docs)**
 
 _**Deno version [1.13.2](https://github.com/denoland/deno/releases/tag/v1.13.2)
 & above**_
 
-- _Author - Nikhil Akki_ 😎
-- _License - MIT_
+- Author - **[Nikhil Akki](http://nikhilakki.in)** 😎
+- License - **MIT**
